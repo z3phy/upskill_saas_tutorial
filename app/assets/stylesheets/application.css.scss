@@ -22,14 +22,32 @@ h1, h2, h3 {
 }
 
 .navbar, .home-callout {
-    // Gradien
-    background: #FF8008; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #FF8008 , #FFC837); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #FF8008 , #FFC837); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    //Gradient provided by @_ighosh at uiGradients.com
+    background: #ffb347; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffb347 , #ffcc33); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffb347 , #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
     border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li>a{
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+    opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    opacity: 0.75;
 }
 
 .home-callout {
