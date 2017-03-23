@@ -27,9 +27,13 @@ h1, h2, h3 {
 // Background Gradient
 .navbar, .home-callout {
     //Gradient provided by @_ighosh at uiGradients.com
-    background: #f85032; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // background: #f85032; /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #D4145A ; /* fallback for old browsers */
+    // Gradient provided by Luke Davies at gradients.io
+    background: -webkit-linear-gradient(to left, #D4145A , #FBB03B); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #D4145A , #FBB03B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
