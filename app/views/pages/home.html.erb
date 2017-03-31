@@ -6,7 +6,7 @@
     <div class="row">
         <% if user_signed_in? %>
             <div class="col-md-6">
-                <div class="well">
+                <div class="well" style="height: 200px">
                     <h2 class="text-center">Your Profile</h2>
                     <% if current_user.profile %>
                         <%= link_to "Edit your profile", edit_user_profile_path(user_id: current_user.id), class: "btn btn-default btn-lg btn-block" %>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="well">
+                <div class="well" style="height: 200px">
                     <h2 class="text-center">The Community</h2>
                     <p>Visit the community to meet other developers, entrepreneurs, and investors!<p>
                     <%= link_to "Visit the community", users_path, class: "btn btn-default btn-lg btn-block" %>
